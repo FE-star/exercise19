@@ -1,0 +1,17 @@
+{
+  "name": "exercise19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "yorts52 <yorts52@gmail.com> (https://yorts52.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-compress": "^2.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0"
+  }
+}
