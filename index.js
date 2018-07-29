@@ -2,7 +2,7 @@
  * @Author: kael 
  * @Date: 2018-03-18 17:35:15 
  * @Last Modified by: kael
- * @Last Modified time: 2018-03-18 19:34:49
+ * @Last Modified time: 2018-07-29 14:50:51
  */
 
 const Koa = require('koa');
@@ -42,6 +42,7 @@ app
     }
 
     if (ctx.url.includes('.js')) {
+      ctx.type = 'js';
       return ctx.body = `/** ${ctx.url} ${text()} */`;
     }
 
